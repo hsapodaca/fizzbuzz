@@ -30,7 +30,7 @@ class FizzbuzzFunctionalTests extends FeatureSpec with GivenWhenThen with Matche
   }
 
   fizzbuzzes.foreach { f =>
-    scenario(s"${getName(f)} if 42 then") {
+    ignore(s"${getName(f)} if 42 then") {
       Given(s"a fizzbuzz implementation ${getName(f)}")
       When("we give it 42")
       Then("42 the answer to life, the universe and everything")
