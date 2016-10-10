@@ -1,6 +1,6 @@
 package org.fizzbuzz
 
-object FizzBuzzBasic extends FizzBuzzCore {
+object FizzbuzzBasic extends FizzbuzzCore {
   /* fizzbuzz implementation with basic if/else check */
   def parse(n: Int): String = {
     if (n % 3 == 0 && n % 5 == 0) "Fizzbuzz"

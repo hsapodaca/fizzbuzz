@@ -1,6 +1,6 @@
 package org.fizzbuzz
 
-object FizzBuzzOneLiner extends FizzBuzzCore {
+object FizzbuzzOneLiner extends FizzbuzzCore {
   /* fizzbuzz 'one liner' with scala collections */
   def parse(i: Int) = Seq(15 -> "Fizzbuzz", 3 -> "Fizz", 5 -> "Buzz")
     .find(i % _._1 == 0)

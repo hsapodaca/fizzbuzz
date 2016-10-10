@@ -1,6 +1,6 @@
 package org.fizzbuzz
 
-object FizzBuzzHigherOrder extends FizzBuzzCore {
+object FizzbuzzHigherOrder extends FizzbuzzCore {
 
   // describes functions like fizz and buzz
   type intToBooleanTranslator = Int => Boolean

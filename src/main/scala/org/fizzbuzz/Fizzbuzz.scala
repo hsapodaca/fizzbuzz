@@ -1,6 +1,6 @@
 package org.fizzbuzz
 
-object FizzBuzz extends FizzBuzzCore {
+object Fizzbuzz extends FizzbuzzCore {
   // If number is divisible by 3 and by 5: return Fizzbuzz
   // if divisible by 5, return Buzz
   // if by 3: Fizz
