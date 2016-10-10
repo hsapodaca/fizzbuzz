@@ -3,7 +3,7 @@ Scala Fizzbuzz
  
 Explanation of FizzBuzz: [http://c2.com/cgi/wiki?FizzBuzzTest](http://c2.com/cgi/wiki?FizzBuzzTest)
 
-Demo of scala syntax and unit tests in a Given-When-Then format.
+Demo of scala syntax and corresponding tests in a Given-When-Then format.
 
 Contains several FizzBuzz implementations: basic, intermediate, scala one-liner with find and map.
 

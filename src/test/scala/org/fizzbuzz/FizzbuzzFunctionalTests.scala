@@ -4,7 +4,7 @@ import org.scalatest.{FeatureSpec, GivenWhenThen, Matchers}
 
 import scala.collection.immutable.Iterable
 
-// this tests more functionality with less code than FizzbuzzTests
+// this tests more functionality with less code
 class FizzbuzzFunctionalTests extends FeatureSpec with GivenWhenThen with Matchers with FizzbuzzTests {
 
   lazy val tests: Iterable[TestCase] = Map(
