@@ -1,7 +1,7 @@
 Scala Fizzbuzz
 ==============
  
-Explanation of FizzBuzz: [http://c2.com/cgi/wiki?FizzBuzzTest](http://c2.com/cgi/wiki?FizzBuzzTest)
+[Explanation of FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 Demo of scala syntax and corresponding tests in a Given-When-Then format.
 
