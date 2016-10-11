@@ -2,7 +2,7 @@ package org.fizzbuzz
 
 import org.scalatest.{FeatureSpec, GivenWhenThen, Matchers}
 
-// this is a brute force approach with large number ranges
+// this is a brute force approach with large number ranges - there are better ways to do this
 class FizzbuzzBruteForceTests extends FeatureSpec with GivenWhenThen with Matchers with FizzbuzzTests {
 
   val range = -100 to 99999
