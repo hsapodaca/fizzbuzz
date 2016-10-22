@@ -2,7 +2,7 @@ package org.fizzbuzz
 
 trait FizzbuzzTests {
 
-  val fizzbuzzes = List(FizzbuzzBasic, FizzbuzzOneLiner, Fizzbuzz)
+  val fizzbuzzes = List(FizzbuzzBasic, FizzbuzzOneLiner, Fizzbuzz, FizzbuzzHigherOrder)
 
   case class TestCase(inputs: List[Int], expected: String = "", hasUniqueResult: Boolean = false)
 

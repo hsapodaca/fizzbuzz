@@ -16,7 +16,8 @@ object FizzbuzzHigherOrder extends FizzbuzzCore {
   // returns true if number is divisible by 5
   def buzz(i: Int): Boolean = i % 5 == 0
 
-  val fizzbuzz: intToBooleanTranslator = both(fizz, buzz)
+  // returns true if fizz and buzz
+  def fizzbuzz: intToBooleanTranslator = both(fizz, buzz)
 
   def parse(i: Int): String = {
     if (fizzbuzz(i)) "Fizzbuzz"
