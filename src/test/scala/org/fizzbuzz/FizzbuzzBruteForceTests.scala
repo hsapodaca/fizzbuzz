@@ -2,8 +2,8 @@ package org.fizzbuzz
 
 import org.scalatest.{FeatureSpec, GivenWhenThen, Matchers}
 
-// this is a bruteforce approach with large number ranges
-class FizzbuzzBruteforceTests extends FeatureSpec with GivenWhenThen with Matchers with FizzbuzzTests {
+// this is a brute force approach with large number ranges - there are better ways to do this
+class FizzbuzzBruteForceTests extends FeatureSpec with GivenWhenThen with Matchers with FizzbuzzTests {
 
   val range = -100 to 99999
 
@@ -34,7 +34,7 @@ class FizzbuzzBruteforceTests extends FeatureSpec with GivenWhenThen with Matche
     scenario(s"${getName(f)} - test that numbers not divisible by 5 or 3 or 15 return number itself as string") {
       Given(s"a fizzbuzz implementation (${getName(f)}) and a range of ${range.size} numbers not divisible by 3 or by 5")
       When("fizzbuzz processes each value")
-      Then("it should only return string representation of value itself")
+      Then("it should only return string representation of number itself")
       for (i <- range.map(_ * 1) if i % 3 != 0 && i % 5 != 0)
         f.parse(i) should be (i.toString)
     }
