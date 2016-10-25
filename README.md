@@ -19,3 +19,8 @@ Test:
 Run:
     
     sbt run
+    
+Build Status
+============
+
+[![Build Status](https://travis-ci.org/svetaa/fizzbuzz.svg?branch=master)](https://travis-ci.org/svetaa/fizzbuzz)
